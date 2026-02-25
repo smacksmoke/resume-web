@@ -3,8 +3,11 @@ import { Header } from "@/components/layout/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Danil Kazantsev",
+  title: "smacksmoke",
   description: "Personal website of Danil Kazantsev",
+  icons: {
+    icon: '/images/favicon.svg',
+  },
 };
 
 export default function RootLayout({
